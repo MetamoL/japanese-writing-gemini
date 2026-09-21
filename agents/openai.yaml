@@ -1,7 +1,7 @@
 interface:
   display_name: "Japanese Writing Gemini"
-  short_description: "日本語の公開文書全体を書き下ろすGemini用ブリーフを明示承認後に作成"
-  default_prompt: "$japanese-writing-gemini この公開文書全体を書き下ろす対象判定と承認状況を確認し、スキルの手順に従ってください。"
+  short_description: "小説・README・技術文書などをGeminiへ渡す自己完結ブリーフを作成"
+  default_prompt: "$japanese-writing-gemini この日本語文章をGeminiへ依頼するための自己完結したブリーフを作ってください。"
 
 policy:
   allow_implicit_invocation: true
